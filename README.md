@@ -37,4 +37,4 @@ Usage example:
  - Timer -m 1 -s 20  | counts for 1 minute and 20 seconds, the hour missing option is defaulted to 0.  
 
 ## Note
-   Ctr-C to exit.  
+   Ctr-C to exit before countdown ends.  
