@@ -21,7 +21,7 @@ Users can define hours, minutes, and seconds for a countdown using intuitive com
 ### Command-line Options  
 
 ```bash  
-Usage: Timer [opt1] <value> [opt2] <value2> ...  
+Usage: Timer [opt1] <value> [opt2] <value> ...  
 
 Options:  
   -h, --hour <value>   Countdown hours (0-120)  
@@ -33,7 +33,7 @@ Usage example:
  - Timer -s 10  | counts for 10 seconds.   
  - Timer -s 20 -m 1 -h 1  | counts for 1 hour, 1 minute and 20 seconds.  
  - Timer -h 1 -m 1 -s 20  | the order of opts does not matter.  
- - Timer -h 12 -a 13 -m 1 -s 20  | -a and 13 are invalid options and will be skipped.  
+ - Timer -h 12 -a 13 -m 1 -s 20  | -a and 13 that comes after it, are invalid options and will be ignored.  
  - Timer -m 1 -s 20  | counts for 1 minute and 20 seconds, the hour missing option is defaulted to 0.  
 
 ## Note
